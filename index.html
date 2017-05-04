@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset=utf-8 />
+	<title>FB Analyser</title>
+    
+    <script src="jquery-3.2.1.min.js"></script>
+    
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap-theme.min.css">
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    
+    <!-- Chart.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.bundle.min.js"></script>
+    
+    <script src="main.js"></script>
+    <script src="model.js"></script>
+	<link rel="stylesheet" type="text/css" media="screen" href="master.css" />
+</head>
+<body>
+    <header>
+        <h1>FB Analyser</h1>
+    </header>
+    
+    <div id="select">
+        <form name="selectForm">
+            <select name="options">
+                <option value="likes">Likes</option>
+                <option value="genders">Genders</option>
+            </select>
+            <input id="submit" type="submit" value="Create chart">
+        </form>
+    </div>
+    
+    <div id="likes" style="display: none">
+        <h2>Likes</h2>
+        <canvas id="likeBars" width="400" height="400"></canvas>
+    </div>
+    
+    <div id="genders" style="display: none">
+        <h2>Genders</h2>
+        <canvas id="genderPie" width="400" height="400"></canvas>
+    </div>
+    
+    <br><br>
+    
+    <footer>
+        <p>&copy; Jasu Setälä 2017</p>
+    </footer>
+    
+</body>
+</html>

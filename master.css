@@ -1,0 +1,44 @@
+body {
+    background: #fff;
+    color: #000;
+    font-size: 1.5em;
+}
+
+header {
+    color: #fff;
+    background: #8DC63F;
+    padding: 0.5em;
+    margin-bottom: 1em;
+}
+
+#select {
+    text-align: center;
+    margin: auto 0;
+}
+
+form {
+    font-size: 1em;
+}
+
+select, input {
+    background: #fff;
+    border: solid 1px #111;
+    border-radius: 0%;
+}
+
+#likes, #genders {
+    text-align: center;
+    margin: auto;
+    max-width: 600px;
+    width: 100%;
+}
+
+footer {
+    max-width: 600px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    font-size: 0.9em;
+    padding: 0.5em;
+    border-top: solid 1px #000;
+}
